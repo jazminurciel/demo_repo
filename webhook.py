@@ -17,7 +17,7 @@ import re
 
 
 
-def clean_text(text):
+#def clean_text(text):
 
 	text = text.encode('latin', 'ignore').decode('latin')
 
@@ -51,7 +51,7 @@ sym_spell.load_dictionary(corpus='resources/es_real_freq_full.txt',term_index=0,
 print("Everything is loaded")
 
 #@app.route('/api_nlp/analyzeSentiment', methods=['POST'])
-def analyzeSentiment(mydata):
+#def analyzeSentiment(mydata):
 
     start = time()#toma tiempo(pidio el dr juan)
     print(f"\nInput text: {mydata}")
