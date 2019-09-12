@@ -12,8 +12,8 @@ from keras.preprocessing.sequence import pad_sequences
 import spacy
 import pickle
 import re
-import sqlite3
-from sqlite3 import Error
+# sqlite3
+#from sqlite3 import Error
 
 
 
